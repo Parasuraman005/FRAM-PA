@@ -1,0 +1,31 @@
+body {
+  background: #90ee90;
+  text-align: center;
+  font-family: Arial;
+  padding: 20px;
+}
+
+.card {
+  background: #ccfacc;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #388e3c;
+  font-weight: bold;
+}

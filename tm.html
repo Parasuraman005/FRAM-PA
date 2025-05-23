@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRAM - PA</title>
+  <link rel="stylesheet" href="tm.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FRAM - PA</h1>
+<hr/>
+    <div class="data-box">
+      <div class="data-card">
+        TEMPERATURE: <span id="tempValue">--</span>°C
+      </div>
+      <div class="data-card">
+        MOISTURE : <span id="moistureValue">---</span>%
+      </div>
+    </div>
+
+    <div class="connect-status" id="connectStatus">CONNECTING ...........</div>
+
+    <button class="bluetooth" onclick="connectBluetooth()">
+      <img src="bluetooth_icon.jpg" alt="Bluetooth">
+    </button>
+  </div>
+
+  <footer>@ ALL RIGHTS RESERVED - Parasu raman</footer>
+  <script src="tm.js"></script>
+</body>
+</html>

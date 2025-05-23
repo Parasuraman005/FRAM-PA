@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRAM - PA</title>
+  <link rel="stylesheet" href="wc.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FRAM - PA</h1>
+      <hr />
+    <div class="status">MOTOR <span id="motorStatus">OFF</span></div>
+
+    <button class="btn on" onclick="sendCommand('ON')">ON</button>
+    <button class="btn off" onclick="sendCommand('OFF')">OFF</button>
+
+    <div class="connect-status" id="connectStatus">CONNECTING ...........</div>
+    <button class="bluetooth" onclick="connectBluetooth()">
+      <img src="bluetooth_icon.jpg" alt="Bluetooth">
+                </button>
+
+  </div>
+
+  <footer>@ ALL RIGHTS RESERVED - Parasu raman</footer>
+  <script src="wc.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #90ee90;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid black;
+  margin-bottom: 150px;
+}
+
+/* Button and Link Styles */
+.buttons button,
+button {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #666;
+  transition: background 0.2s ease-in-out;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+/* Status and Bluetooth */
+.status {
+  margin-top: 30px;
+}
+
+.status img,
+img[alt="Bluetooth"] {
+  margin-top:500px;
+  width: 70px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  font-weight: bold;
+  margin-top:150px;
+  padding: 10px;
+  color: black;
+  font-size: 0.8rem;
+}
+
+/* Back link */
+a[href*="index.html"] {
+  display: inline-block;
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a[href*="index.html"]:hover {
+  text-decoration: underline;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 600px) {
+  .buttons button,
+  button {
+    width: 90%;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #90ee90;
+  text-align: center;
+  color: #000;
+}
+
+.container {
+  padding: 20px;
+}
+hr {
+  border: 1px solid black;
+  margin-bottom: 100px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.data-box {
+  background: #fdecec;
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.data-card {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 6px 6px 0 #000;
+  font-weight: bold;
+}
+
+.connect-status {
+  margin-top: 50px;
+  font-size: 16px;
+  color: gray;
+}
+
+.bluetooth img {
+  width: 50px;
+  margin-top: 10px;
+}
+.bluetooth{
+  border :none;
+  background-color:#90ee90 ;
+}
+footer {
+  margin-top: 200px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px
+}

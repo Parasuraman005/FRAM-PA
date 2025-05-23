@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRAM - PA</title>
+  <link rel="stylesheet" href="npk.css">
+</head>
+<body>
+  <h1>FRAM - PA</h1>
+  <div class="container">
+    <h2>NPK Sensor Calculator</h2>
+    <label>Nitrogen (N):</label>
+    <input id="nVal" type="number" placeholder="Enter N value">
+    <label>Phosphorus (P):</label>
+    <input id="pVal" type="number" placeholder="Enter P value">
+    <label>Potassium (K):</label>
+    <input id="kVal" type="number" placeholder="Enter K value">
+    <button onclick="calculate()">Calculate</button>
+    <button onclick="refreshBluetooth()">REFRESH !!</button>
+    <div id="status">CONNECTING ...........</div>
+    <img src="blue_white.jpg" alt="Bluetooth Icon" class="bluetooth-icon">
+  </div>
+  <footer>@ ALL RIGHTS RESERVED - Parasu raman</footer>
+
+  <script src="npk.js"></script>
+</body>
+</html>
